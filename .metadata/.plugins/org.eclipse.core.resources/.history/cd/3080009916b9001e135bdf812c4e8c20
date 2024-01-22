@@ -1,0 +1,16 @@
+package errekurtxibitatea;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ariketakTest {
+
+    @Test
+    public void testAgertzenDaA() {
+        assertTrue(ariketak.agertzenDaA("Aa"));
+        assertTrue(ariketak.agertzenDaA("abracadabra"));
+        assertFalse(ariketak.agertzenDaA("xyz"));
+    }
+
+}
