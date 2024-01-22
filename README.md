@@ -1,18 +1,31 @@
-## Getting Started
+# Java Ariketa Proiektua
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Deskribapena
 
-## Folder Structure
+Proiektu honek hainbat ariketak ditu, eta ariketen soluzioak Java programazio lengoaian idatzita daude.
 
-The workspace contains two folders by default, where:
+## Ariketak
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **agertzenDaA**
+   - Deskribapena: String bat jasotzen du eta "a" letra duen edo ez egiaztatzen duen funtzioa.
+   - Metodoa: `public static boolean agertzenDaA(String letraA)`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+2. **alderantziz**
+   - Deskribapena: String bat jasotzen du eta alderantziz itzultzen duen funtzioa.
+   - Metodoa: `public static String alderantziz(String ald)`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+3. **agertzenDaAA**
+   - Deskribapena: String bat jasotzen du eta "aa" string-a duen edo ez egiaztatzen duen funtzioa.
+   - Metodoa: `public static boolean agertzenDaAA(String agertzenDaAA)`
 
-## Dependency Management
+4. **agerpenKopuruaA**
+   - Deskribapena: String bat jasotzen du eta "a" letra kopurua kalkulatzen duen funtzioa.
+   - Metodoa: `public static int agerpenKopuruaA(String letraA)`
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+5. **berredura**
+   - Deskribapena: Zenbaki bat jasotzen du eta 2^N kalkulatzen duen funtzioa.
+   - Metodoa: `public static int berredura(int n)`
+
+6. **calcularPotencia**
+   - Deskribapena: Bi zenbakiak jasotzen ditu, bat basea eta bestea esponentea, eta basea^esponentea kalkulatzen duen funtzioa.
+   - Metodoa: `public static int calcularPotencia(int base, int exponente)`

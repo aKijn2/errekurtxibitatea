@@ -4,8 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class ariketakTest {
+class ariketakTest implements ariketakTest {
 
+    @Override
     @Test
     public void testAgertzenDaA() {
         assertTrue(ariketak.agertzenDaA("Aa"));
@@ -13,12 +14,14 @@ class ariketakTest {
         assertFalse(ariketak.agertzenDaA("xyz"));
     }
 
+    @Override
     @Test
     public void testAlderantziz() {
         assertEquals("tset", ariketak.alderantziz("test"));
         assertEquals("", ariketak.alderantziz(""));
     }
 
+    @Override
     @Test
     public void testAgertzenDaAA() {
         assertFalse(ariketak.agertzenDaAA("aabb"));
@@ -26,12 +29,14 @@ class ariketakTest {
         assertFalse(ariketak.agertzenDaAA("xyz"));
     }
 
+    @Override
     @Test
     public void testAgerpenKopuruaA() {
         assertEquals(5, ariketak.agerpenKopuruaA("abracadabra"));
         assertEquals(0, ariketak.agerpenKopuruaA("xyz"));
     }
 
+    @Override
     @Test
     public void testBerredura() {
         assertEquals(1, ariketak.berredura(0));
