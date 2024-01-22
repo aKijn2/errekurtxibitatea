@@ -48,7 +48,7 @@ public class ariketak {
 
         // Ariketa gehigarriak:
 
-        /* 6. Ariketa*/
+        /* 6. Ariketa */
         System.out.println("potentzia, m^n:");
         int m = sc.nextInt();
         int n1 = sc.nextInt();
